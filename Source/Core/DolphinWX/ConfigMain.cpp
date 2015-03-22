@@ -580,7 +580,7 @@ void CConfigMain::CreateGUIControls()
 	ConfirmStop = new wxCheckBox(DisplayPage, ID_INTERFACE_CONFIRMSTOP, _("Confirm on Stop"));
 	UsePanicHandlers = new wxCheckBox(DisplayPage, ID_INTERFACE_USEPANICHANDLERS, _("Use Panic Handlers"));
 	OnScreenDisplayMessages = new wxCheckBox(DisplayPage, ID_INTERFACE_ONSCREENDISPLAYMESSAGES, _("On-Screen Display Messages"));
-	PauseOnFocusLost = new wxCheckBox(DisplayPage, ID_INTERFACE_PAUSEONFOCUSLOST, _("Pause on Focus Lost"));
+	PauseOnFocusLost = new wxCheckBox(DisplayPage, ID_INTERFACE_PAUSEONFOCUSLOST, _("Pause when Focus is lost"));
 
 	wxBoxSizer* sInterface = new wxBoxSizer(wxHORIZONTAL);
 	sInterface->Add(TEXT_BOX(DisplayPage, _("Language:")), 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
